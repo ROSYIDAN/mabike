@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:mabike/JourneysPages/RentBike.dart';
 import 'package:mabike/constant.dart';
@@ -17,11 +19,11 @@ class NavBarState extends State<NavBar> {
   int index = 0;
 
   final screens = [
-    const DiscoverPage(),
-    const EventPage(),
-    const RentPage(),
-    const InboxPage(),
-    const ProfilePage(),
+    DiscoverPage(),
+    EventPage(),
+    RentPage(),
+    InboxPage(),
+    ProfilePage(),
   ];
 
   @override
@@ -43,7 +45,7 @@ class NavBarState extends State<NavBar> {
                 width: 30,
                 height: 30,
               ),
-              label: '',
+              label: '.',
             ),
             NavigationDestination(
               icon: Image.asset(

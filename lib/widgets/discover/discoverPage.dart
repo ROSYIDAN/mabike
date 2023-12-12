@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mabike/constant.dart';
 import 'package:mabike/widgets/topWidget.dart';
 
@@ -16,7 +17,7 @@ class SearchWideget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 26.0),
+      padding: const EdgeInsets.symmetric(horizontal: 25.0),
       child: Container(
         width: 20,
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
@@ -41,13 +42,12 @@ class _DiscoverPageState extends State<DiscoverPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const TopWidget(),
       backgroundColor: bg,
       body: ListView(
         children: const [
+          TopWidget(),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-            child: Text("Discover Page"),
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
           ),
           SearchWideget(),
         ],
