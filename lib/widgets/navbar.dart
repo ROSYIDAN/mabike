@@ -3,10 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:mabike/JourneysPages/RentBike.dart';
 import 'package:mabike/constant.dart';
-import 'package:mabike/discoverPage.dart';
 import 'package:mabike/EventPages/eventPage.dart';
 import 'package:mabike/inbox.dart';
 import 'package:mabike/profile.dart';
+import 'package:mabike/widgets/discover/discoverPage.dart';
 
 class NavBar extends StatefulWidget {
   const NavBar({super.key});

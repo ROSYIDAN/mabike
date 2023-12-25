@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mabike/constant.dart';
-import 'package:mabike/widgets/topWidget.dart';
+import 'package:mabike/widgets/discover/topWidget.dart';
 
 class DiscoverPage extends StatefulWidget {
   const DiscoverPage({Key? key}) : super(key: key);
